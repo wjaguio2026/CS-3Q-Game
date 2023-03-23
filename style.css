@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+.bg {
+    background-image: url("menu.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>The Pairnatubo Gameshow! | Menu</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            overflow: hidden;
+            font-family: 'Righteous', cursive;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        .bg {
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .menu {
+            position: absolute;
+            top: 390px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title {
+            font-size: 90px;
+            color: #f4f0e5;
+            -webkit-text-stroke: 3px #c2a24b;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c2a24b, 0 0 40px #c2a24b, 0 0 50px #c2a24b, 0 0 60px #c2a24b, 0 0 70px #c2a24b;
+        }
+
+        .buttons {
+            margin-top: 100px;
+        }
+
+        a:link, a:visited {
+            text-decoration: none;
+            font-size: 50px;
+            color: #f4f0e5;
+            -webkit-text-stroke: 2px #c2a24b;
+            text-shadow: 0 0 10px #fff, 0 0 40px #c2a24b, 0 0 50px #c2a24b, 0 0 60px #c2a24b;
+            background-color: rgba(36, 40, 62, 0.747);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 120px;
+            padding-right: 120px;
+            border: 5px solid #000000;
+        }
+
+        a:hover {
+            text-decoration: none;
+            font-size: 50px;
+            color: #f4f0e5;
+            -webkit-text-stroke: 2px #c2a24b;
+            text-shadow: 0 0 10px #fff, 0 0 40px #c2a24b, 0 0 50px #c2a24b, 0 0 60px #c2a24b;
+            background-color: rgba(64, 70, 105, 0.747);
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 125px;
+            padding-right: 125px;
+            border: 5px solid #1b1b1b;
+        }
+
+        .start, .tutor, .credits {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="bg" src="menu.png" alt="circus">
+
+        <div class="menu">
+            <div class="title">The Pairnatubo Gameshow!</div>
+            <div class="buttons">
+                <div class="start"><a href="index.html">Start Game!</a></div>
+                <div class="tutor"><a href="tutor.html">Tutorial Page</a></div>
+                <div class="credits"><a href="aboutus.html">About & Ref </a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
